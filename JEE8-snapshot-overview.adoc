@@ -33,7 +33,7 @@ Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et parad
 9. Java EE  management 2.0 https://www.jcp.org/en/jsr/detail?id=373[(JSR 373)] : Remplacer l'API existante basée sur EJB 2 par une API REST/SSE pour améliorer sa portabilité.
 10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)] :
 ** Intégrer CDI dans le JavaSE
-** Gérer les événements asynchrones
+** Gérer les événements asynchrones (JMS)
 ** XML Configuration  
 ** Quelques corrections et évolutions mineures ont été aussi apportées.
 
