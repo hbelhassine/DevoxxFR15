@@ -7,39 +7,39 @@ Summary by Houssem BELHASSINE
 :split:
 
 
-L'adoption de JavaEE 7 est à peine en train de décoller, qu'on parle déjà de la nouvelle version 8 qui, à ce stade, est en cours de spécification. La conférence "Java EE 8, a snapshot overview", assurée par David Delabassee, était l'occasion de nous présenter l’état des lieux de l'avancement de la spécification. Et cela donne un idée sur le contenu final.
+L'adoption de JavaEE 7 est à peine en train de décoller qu'on parle déjà de la nouvelle version 8 qui, à ce stade, est en cours de spécification. La conférence "Java EE 8, a snapshot overview", assurée par http://cfp.devoxx.fr/2015/talk/KYW-5424/Java_EE_8,_a_snapshot_overview[David Delabassee], était l'occasion de nous présenter l’état des lieux et l'avancement de la spécification. Et cela donne une idée sur le contenu final.
 
-Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et paradigme de développement : HTML5, HTTP2, Cloud ... . La liste de nouveautés reste non exhaustive  et susceptible d'évoluer.
+Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et paradigme de développement : HTML5, HTTP 2.0, Cloud, etc. La liste de nouveautés suivante reste non exhaustive et susceptible d'évoluer :
 
 
 1. Le support de Java 8 et les Lambdas
-2. Servlet 4 https://www.jcp.org/en/jsr/detail?id=340[(JSR 340)]:  support du HTTP 2.0
+2. Servlet 4 https://www.jcp.org/en/jsr/detail?id=369[(JSR 369)]:  support du protocole HTTP 2.0
 ** Streaming et multiplexing: utiliser une seule connexion pour plusieurs requêtes
 ** Compression des headers HTTP
 ** Transmission en binaire
 ** Server push
 3. JSON-B https://www.jcp.org/en/jsr/detail?id=367[(JSR 367)]: une nouvelle API standard qui permet de passer de JSON vers OBJET et vice-versa (marshelling et unmarshelling)
-4. JSON-P 1.1 https://www.jcp.org/en/jsr/detail?id=353[(JSR 353)]:
-** Support  du Json Pointer https://tools.ietf.org/html/rfc6901[(RFC 6901)] : un standard qui définit un syntaxe de requêtage permettant d'identifier une valeur dans une donnée JSON (un peu comme le XMLPATH)
-** Support du  Json Patch https://tools.ietf.org/html/rfc6901[(RFC 6902)]: un standard qui définit  un syntaxe permettant de décrire des traitements à appliquer sur des données JSON
-** Des classes utilitaires qui permettent de mieux utiliser la nouvelle API Stream de java 8 dans le traitement des données JSON
-5. JAX-RS 2.1 https://www.jcp.org/en/jsr/detail?id=370[(JSR 370)]:  support de la technologie Server Sent Event de HTML 5 (le client est notifié à chaque fois que le serveur envoie de données de sa propre initiative )
+4. JSON-P 1.1 https://www.jcp.org/en/jsr/detail?id=374[(JSR 374)]:
+** Support  du JSON Pointer https://tools.ietf.org/html/rfc6901[(RFC 6901)] : un standard qui définit un syntaxe de requêtage permettant d'identifier une valeur dans une donnée JSON (un peu comme le XMLPATH)
+** Support du  JSON Patch https://tools.ietf.org/html/rfc6901[(RFC 6902)]: un standard qui définit  un syntaxe permettant de décrire des traitements à appliquer sur des données JSON
+** Des classes utilitaires permettent de mieux utiliser la nouvelle API Stream de Java 8 dans le traitement des données JSON
+5. JAX-RS 2.1 https://www.jcp.org/en/jsr/detail?id=370[(JSR 370)]:  support de la technologie **S**erver **S**ent **E**vent de HTML 5 (le client est notifié à chaque fois que le serveur envoie de données de sa propre initiative )
 6. MVC 1.0  https://www.jcp.org/en/jsr/detail?id=371[(JSR 371)]: proposer un pattern standard pour le développement des applications orientées web : recenser toutes les technologies JEE existantes et en proposer d'autres si nécessaire. On trouve la classification suivante :  
 ** Model : CDI, Bean validation, JPA
-** View : JSP, Facelets
+** View : JSP, Facelets, ...
 ** Controller : JAX-RS ou une autre qui reste à définir
-7. Java Security 1,0 https://www.jcp.org/en/jsr/detail?id=375[(JSR 375)] : Simplifier, standardiser et moderniser l'API pour répondre aux exigences en sécurité (gestion d'utilisateur, rôle, authentification) des  applications modernes, de type CLOUD/PASS par exemple.
-8. JMS 2.1 https://www.jcp.org/en/jsr/detail?id=368[(JSR 368)] : Proposer une alternative au Message Driven Bean avec une intégration CDI. Quelques corrections et évolutions mineures ont été apportées aussi.
+7. Java Security 1.0 https://www.jcp.org/en/jsr/detail?id=375[(JSR 375)] : Simplifier, standardiser et moderniser l'API pour répondre aux exigences en sécurité (gestion d'utilisateur, rôle, authentification) des  applications modernes, de type CLOUD/PAAS par exemple.
+8. JMS 2.1 https://www.jcp.org/en/jsr/detail?id=368[(JSR 368)] : Proposer une alternative au **M**essage-**D**riven **B**ean avec une intégration CDI. Quelques corrections et évolutions mineures ont été apportées aussi.
 9. Java EE  management 2.0 https://www.jcp.org/en/jsr/detail?id=373[(JSR 373)] : Remplacer l'API existante basée sur EJB 2 par une API REST/SSE pour améliorer sa portabilité
 
 10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)]:
 ** Intégrer CDI dans le JavaSE.
 ** Gérer les événements asynchrones
 ** XML Configuration  
-** Quelques corrections et évolutions mineures ont été apportées aussi.
+** Quelques corrections et évolutions mineures ont été aussi apportées.
 
 
 Comme je l'avais dit, cette liste n'est pas exhaustive et peut évoluer. Certaines de ces nouveautés pourront ne pas faire partie de Java EE 8 faute de temps. 
-D'une maniéré générale, je constate que la spécification EJB n'a pas évolué et avec CDI et JAX-RS une alternative sérieuse est née. Est-ce la fin des EJB au profit des nouveaux nés ? Cette question a été posée au speaker et il n'a pas voulu confirmé cela. 
+Pour conclure, je constate que la spécification EJB n'a pas évolué et que CDI et JAX-RS représentent une alternative sérieuse et viable. Est-ce la fin des EJBs au profit des nouveaux nés ? Cette question a été posée au speaker et il n'a pas voulu confirmer cela. 
 En tout cas, en ce qui me concerne, j'ai choisi mon camp : vivement CDI et JAX-RS :-)
  
