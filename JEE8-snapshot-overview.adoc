@@ -22,17 +22,16 @@ Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et parad
 4. JSON-P 1.1 https://www.jcp.org/en/jsr/detail?id=374[(JSR 374)]:
 ** Support  du JSON Pointer https://tools.ietf.org/html/rfc6901[(RFC 6901)] : un standard qui définit un syntaxe de requêtage permettant d'identifier une valeur dans une donnée JSON (un peu comme le XMLPATH)
 ** Support du  JSON Patch https://tools.ietf.org/html/rfc6901[(RFC 6902)]: un standard qui définit  un syntaxe permettant de décrire des traitements à appliquer sur des données JSON
-** Des classes utilitaires permettent de mieux utiliser la nouvelle API Stream de Java 8 dans le traitement des données JSON.
+** Ajout des classes utilitaires permettent de mieux utiliser la nouvelle API Stream de Java 8 dans le traitement des données JSON.
 5. JAX-RS 2.1 https://www.jcp.org/en/jsr/detail?id=370[(JSR 370)]:  support de la technologie **S**erver **S**ent **E**vent de HTML 5 (le client est notifié à chaque fois que le serveur envoie de données de sa propre initiative).
 6. MVC 1.0  https://www.jcp.org/en/jsr/detail?id=371[(JSR 371)]: proposer un pattern standard pour le développement des applications orientées web : recenser toutes les technologies JEE existantes et en proposer d'autres si nécessaire. On trouve la classification suivante :  
 ** Model : CDI, Bean validation, JPA
 ** View : JSP, Facelets, ...
 ** Controller : JAX-RS ou une autre qui reste à définir.
 7. Java Security 1.0 https://www.jcp.org/en/jsr/detail?id=375[(JSR 375)] : Simplifier, standardiser et moderniser l'API pour répondre aux exigences en sécurité (gestion d'utilisateur, rôle, authentification) des  applications modernes, de type CLOUD/PAAS par exemple.
-8. JMS 2.1 https://www.jcp.org/en/jsr/detail?id=368[(JSR 368)] : Proposer une alternative au **M**essage-**D**riven **B**ean avec une intégration CDI. Quelques corrections et évolutions mineures ont été apportées aussi.
+8. JMS 2.1 https://www.jcp.org/en/jsr/detail?id=368[(JSR 368)] : Proposer une alternative au **M**essage-**D**riven **B**ean avec une meilleure intégration CDI. Quelques corrections et évolutions mineures ont été apportées aussi.
 9. Java EE  management 2.0 https://www.jcp.org/en/jsr/detail?id=373[(JSR 373)] : Remplacer l'API existante basée sur EJB 2 par une API REST/SSE pour améliorer sa portabilité.
-
-10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)]:
+10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)] :
 ** Intégrer CDI dans le JavaSE
 ** Gérer les événements asynchrones
 ** XML Configuration  
