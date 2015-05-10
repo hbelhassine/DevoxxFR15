@@ -30,8 +30,8 @@ Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et parad
 ** Controller : JAX-RS ou une autre qui reste à définir.
 7. Java Security 1.0 https://www.jcp.org/en/jsr/detail?id=375[(JSR 375)] : Simplifier, standardiser et moderniser l'API pour répondre aux exigences en sécurité (gestion d'utilisateur, rôle, authentification) des  applications modernes, de type CLOUD/PAAS par exemple.
 8. JMS 2.1 https://www.jcp.org/en/jsr/detail?id=368[(JSR 368)] : Proposer une alternative au **M**essage-**D**riven **B**ean avec une meilleure intégration CDI. Quelques corrections et évolutions mineures ont été apportées aussi.
-9. Java EE  management 2.0 https://www.jcp.org/en/jsr/detail?id=373[(JSR 373)] : Remplacer l'API existante basée sur EJB 2 par une API REST/SSE pour améliorer sa portabilité.
-10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)] :
+9. Java EE  management 2.0 https://www.jcp.org/en/jsr/detail?id=373[(JSR 373)] : Remplacer l'API existante basée sur EJB 2 par une API REST/SSE pour améliorer sa portabilité.
+10. CDI 2.0 https://www.jcp.org/en/jsr/detail?id=365[(JSR 365)] :
 ** Intégrer CDI dans le JavaSE
 ** Gérer les événements asynchrones
 ** XML Configuration  
