@@ -40,6 +40,7 @@ Comme à chaque fois, Java EE essaie de s'adapter aux nouveaux standard et parad
 
 
 Comme je l'avais dit, cette liste n'est pas exhaustive et peut évoluer. Certaines de ces nouveautés pourront ne pas faire partie de Java EE 8 faute de temps. 
+
 Pour conclure, je constate que la spécification EJB n'a pas évolué et que CDI et JAX-RS représentent une alternative sérieuse et viable. Est-ce la fin des EJBs au profit des nouveaux nés ? Cette question a été posée au speaker et il n'a pas voulu confirmer cela. 
 En tout cas, en ce qui me concerne, j'ai choisi mon camp : vivement CDI et JAX-RS :-)
  
